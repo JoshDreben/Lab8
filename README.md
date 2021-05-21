@@ -17,3 +17,4 @@ The Browser UI would not show up, and it would probably run much faster
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
 
+I would check to see if the url has #settings in it, and if it doesn't I would press the settings icon image using page.click()
