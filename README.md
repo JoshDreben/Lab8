@@ -1,5 +1,8 @@
 # Lab8_Starter
 
+## Author
+Joshua Dreben
+
 ## Check your understanding q's (FILL OUT)
 1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)
 (1)
@@ -13,6 +16,7 @@ I would use a few types of tests for the message feature. A unit test would be g
 Yes, I would as this is a very low level feature that is very isolated from other features.
 
 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?
+
 The Browser UI would not show up, and it would probably run much faster
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
